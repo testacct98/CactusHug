@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CactusHug</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="top-bar" data-aos="fade-down">
+      <div class="logo-area">
+        <img src="assets/logo.png" alt="CactusHug Logo" />
+        <span class="brand-name">CactusHug</span>
+      </div>
+      <div class="action-buttons">
+        <a href="https://x.com/CactusHug" target="_blank">Twitter</a>
+        <button id="buyToggle">Buy Now</button>
+      </div>
+    </div>
+    <div id="contractBox">CA: <span>Coming Soon...</span></div>
+    <div class="video-wrapper" data-aos="zoom-in">
+      <video autoplay muted loop>
+        <source src="assets/header-video.mp4" type="video/mp4" />
+      </video>
+      <div class="headline">🌵 Embrace the sting. Watch your profits bloom! 🌵</div>
+    </div>
+  </header>
+
+  <main>
+    <section data-aos="fade-up">
+      <h2>🪴 About</h2>
+      <p>CactusHug 🌵 is your spiky friend in the crypto desert 😅—resilient, hilarious, and always ready to bounce back. Just like that lonely cactus in your kitchen, this coin survives dips, thrives in chaos, and somehow still makes everyone smile. A prickly metaphor for the market, and your portfolio's new best bud. 🪴✨</p>
+    </section>
+
+    <section data-aos="fade-up">
+      
+<h2>How to Buy</h2>
+<div class="boxed-steps">
+  <div class="step-box" data-aos="fade-up"><span class="step-text">🦊 Create a Solana wallet (e.g. Phantom or Backpack)</span></div>
+  <div class="step-box" data-aos="fade-up"><span class="step-text">💸 Buy some $SOL on a CEX and transfer to your wallet</span></div>
+  <div class="step-box" data-aos="fade-up"><span class="step-text">🔍 Go to pump.fun and search “CactusHug”</span></div>
+  <div class="step-box" data-aos="fade-up"><span class="step-text">🤝 Connect wallet and buy using the launchpad</span></div>
+  <div class="step-box" data-aos="fade-up"><span class="step-text">🌵 Brace for the hug—because it’s gonna sting sweetly</span></div>
+</div>
+
+</section>
+
+    <section data-aos="fade-up">
+      <h2>📦 Tokenomics</h2>
+      <ul style="list-style: none; padding-left: 0;">
+        <div class="step-box" data-aos="fade-up"><span class="step-text">Total Supply: 1,000,000,000</span></div>
+        <div class="step-box" data-aos="fade-up"><span class="step-text">No Taxes – Only Hugs</span></div>
+        <div class="step-box" data-aos="fade-up"><span class="step-text">100% Liquidity Burned</span></div>
+        <div class="step-box" data-aos="fade-up"><span class="step-text">Ownership Renounced</span></div>
+      </ul>
+    </section>
+
+    <section data-aos="fade-up">
+      
+<h2>Roadmap</h2>
+<div class="boxed-roadmap">
+  <div class="step-box" data-aos="fade-up"><span class="step-text">🌱 Launch and Grow</span></div>
+  <div class="step-box" data-aos="fade-up"><span class="step-text">📈 Hug the Charts</span></div>
+  <div class="step-box" data-aos="fade-up"><span class="step-text">🎨 Meme Expansion</span></div>
+  <div class="step-box" data-aos="fade-up"><span class="step-text">🌵 Global Hugging Initiative</span></div>
+</div>
+</section>
+
+    <section data-aos="fade-up">
+      <h2>✨ The Hidden Warmth Beneath the Thorns</h2>
+      <p>🪴 Cacti store water, thrive in extremes, and stay cool under pressure 🌞—just like true degens. Their quiet strength reminds us that beauty can survive the harshest environments. HODL like a cactus: 🌵✨ slow, spiky, and full of life.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 CactusHug. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const buyBtn = document.getElementById("buyToggle");
+    const caBox = document.getElementById("contractBox");
+    let toggle = false;
+    buyBtn.onclick = () => {
+      toggle = !toggle;
+      caBox.style.display = toggle ? "block" : "none";
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000 });</script>
+</body>
+</html>
